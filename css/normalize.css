@@ -1,0 +1,56 @@
+
+ /* ----- ОБНУЛЕНИЕ ----- */
+
+ /* Отступы */
+ * {
+  padding: 0;
+  border: 0;
+  margin: 0;
+ }
+
+ /* Отступы считаются внутри блока, а размеры блока остаются фиксированными */
+ *,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Убираем линии обводки у некоторых браузеров */
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+/* Делает следующие элементы блочными */
+nav,footer,header,aside{display: block;}
+
+/* Уравнивает параметры шрифтов и элементов, в том числе на смартфонах */
+html,body{
+	height: 100%;
+	width: 100%;
+  font-family: sans-serif;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+/* Обнуляет стили заголовков */
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+/* Обнуляет стили ссылок и списков */
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+
+/* Обнуляет стили форм и кнопок */
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+
+/* Выравнивает картинки по верху и задаёт максимальную ширину */
+img {
+  vertical-align: top;
+  max-width: 100%;
+}

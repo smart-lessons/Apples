@@ -1,0 +1,221 @@
+
+html {
+	box-sizing: border-box;
+}
+
+
+/* Текстовые свойства */
+
+body {
+    font-family: 'Noto Sans',Arial, sans-serif;
+	font-size: 20px;
+    font-weight: 300;
+	line-height: 130%;
+    color: #2C2C2C;
+}
+
+h1 {
+  	font-size: 40px;
+  	font-weight: 800;
+    line-height: 120%;
+    color: #b41200;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: 800;
+}
+
+i {
+    font-style: italic;
+}
+
+b {
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: #ED3327;
+}
+
+
+
+
+/* Оглавление */
+
+.contents {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #2C2C2C;
+}
+
+.contents:hover {
+    color: #b41200;
+}
+
+.contents-border {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-top: 3px dotted #777777;
+    border-bottom: 3px dotted #777777;
+}
+
+
+
+/* Отступы */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 0 35px;
+}
+
+h1 {
+    margin: 80px 0;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-left: 30px;
+}
+
+
+.note {
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+
+
+
+/* Выделение блока */
+
+.list {
+    margin-top: 30px;
+    padding: 40px;
+    border: 3px dotted #777777;
+}
+
+
+
+
+/* Медиаконтент */
+
+.image {
+    width: 40%;
+    min-width: 280px;
+    float: right;
+}
+
+.video-container {
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 80%;
+}
+
+.video {
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+body {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+/* Кнопка */
+
+.button {
+    display: block;
+    margin: 70px auto;
+    width: 45%;
+
+    background-color: #9e1102;
+    border-radius: 40px;
+    padding: 25px 50px;
+
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+.button:hover {
+    background-color: #f4c876;
+    color: black;
+}
+
+
+
+
+/* Шапка */
+
+header {
+    /* position: sticky;
+    top: 0; */
+    height: 130px;
+    background-color: #2C2C2C;
+}
+
+.header-container {
+    height: 30px;
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 50px 35px;
+}
+
+.menu {
+    margin-right: 30px;
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+
+.menu:hover {
+    color: #f4c876;
+}
+
+
+
+
+/* Подвал */
+
+footer {
+    height: 230px;
+    background-color: #2C2C2C;
+}
+
+.footer-container {
+    height: 30px;
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 100px 35px;
+}
+
+.author{
+    margin: 0;
+    text-align: right;
+    color: #d5d5d5;
+}
+
+
