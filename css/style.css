@@ -48,18 +48,18 @@ a:visited {
 
 /* Оглавление */
 
-.contents {
+.chapters {
     display: block;
     margin-bottom: 10px;
     font-weight: 700;
     color: #2C2C2C;
 }
 
-.contents:hover {
+.chapters:hover {
     color: #b41200;
 }
 
-.contents-border {
+.content-border {
     padding-top: 30px;
     padding-bottom: 20px;
     border-top: 3px dotted #777777;
@@ -115,7 +115,7 @@ ul {
 
 /* Выделение блока */
 
-.list {
+.accent {
     margin-top: 30px;
     padding: 40px;
     border: 3px dotted #777777;
